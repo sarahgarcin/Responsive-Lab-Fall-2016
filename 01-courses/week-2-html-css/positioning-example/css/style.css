@@ -1,0 +1,45 @@
+*{
+    margin:0;
+}
+
+body{
+    font-size: 12px;
+    font-family: Georgia, serif;
+    color: #000;
+    margin:0;
+}
+
+header{
+    background: #FFF;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #000;
+}
+
+li{ list-style: none;}
+img{width: 100%;}
+
+main{
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+main .introduction{
+    width: 50%;
+    margin:auto;
+    margin-bottom: 40px;
+}
+
+main .gallery li{
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+}
+
+footer{
+    padding: 20px;
+}
+
