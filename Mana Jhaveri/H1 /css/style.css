@@ -1,0 +1,28 @@
+body {
+	background: rgb(229, 204, 255);
+	font-size: 30px;
+}
+
+
+/*specifically telling the paragraph on the index page to be a specific color*/
+p{
+	color: rgb(0, 0, 10);
+	font-size: 2em;
+}
+
+/*your applying the style into all the elements, for ex: h1 in index AND in page, it gives both the titles the same color*/
+h1 {
+	color: rgb(0, 0, 100);
+}
+
+li {
+	color: rgb(255,255,255);
+}
+
+h5 {
+	color: rgb(255,2,100);
+}
+
+h6 {
+	color: rgb(120,0,68);
+}
