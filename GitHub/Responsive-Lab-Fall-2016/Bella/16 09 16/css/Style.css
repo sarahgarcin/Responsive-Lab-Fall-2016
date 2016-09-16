@@ -1,0 +1,101 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+@font-face {
+    font-family: 'moonflower';
+    src: url('../fonts/moon_flower_bold-webfont.woff2') format('woff2'),
+         url('../fonts/moon_flower_bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'moonflower';
+    src: url('../fonts/moon_flower-webfont.woff2') format('woff2'),
+         url('../fonts/moon_flower-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**{
+  margin: 0px;
+}*/
+
+body{
+  background: rgb(83, 80, 180);
+  font-size: 20px;
+  font-family: "moonflower", sans-serif;
+  /*First font, if that's not available, it will load second font, and if neither are there,
+  it will load first sans-serif font computer has*/
+  font-weight: bold;
+  margin:auto;
+}
+
+img{
+  width:100%
+}
+
+.image-wrapper{
+  width: 20%;
+  margin: auto;
+  /*position: absolute; /*this is if you need something on another layer,
+  don't use this often unless you need it*/
+  /*position: fixed;*/ /*this is when an image stays in place
+  /*top: 20px;
+  left: 50%;*/
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #990037;
+  font-size: 2em;
+  text-align: center;
+  border: 2px dotted #000;
+  /*border-radius: 50%;*/
+}
+
+p span{
+  color: orange;
+}
+
+.red {
+  color: #FFFFFF;
+}
+
+#reed {
+  color: #FFFFFF;
+}
+
+a:hover{
+  color: lime;
+} /*when you hover over a link*/
+
+a:active{
+  color: white;
+}
+
+a:visited{
+  color: pink;
+} /*when you have already been on a link it will be this color*/
+
+main{
+  width: 90%;
+  height: 60vh;
+  margin:auto;
+}
+
+ul li {
+  text-decoration: underline;
+}
+
+ul > li{
+  color: yellow;
+  text-align: center;
+}
+
+h3 +p{
+  font-size: 2em;
+}
+
+h1{
+  color: #FFFFFF;
+}
