@@ -1,0 +1,52 @@
+*{
+    margin:0;
+}
+
+body{
+    font-size: 12px;
+    font-family: Georgia, serif;
+    color: #000;
+    margin:0;
+}
+
+header{
+    background: #FFF;
+    position: fixed;
+    width: 100%;
+    padding: 20px; /*surrounding the words, the space, the edge of the blog*/
+    border-bottom: 1px solid #000;
+}
+
+li{ list-style: none;} /* to remove the bullet */
+img{width: 100%;} /* makes the images all in the same size container(same size photos)*/
+
+main{/*the main block characters*/
+    padding-top: 100px;
+    width: 90%;
+    margin: auto;
+    border:1px solid #000;
+}
+
+main .introduction{
+    width: 50%;/*percentage of this own block*/
+    margin:auto;
+    text-align: center;
+    margin-bottom: 40px;
+    border:1px solid;
+}
+
+main .gallery li{
+    width: 23%;/*the width of all photos*/
+    height:200px;/*the height of all photos*/
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    border: 1px solid;
+    overflow: hidden;/*use it when you have specific width & height*/
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+}
+
