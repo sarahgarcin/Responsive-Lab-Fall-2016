@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "NewFutura";
+    src: url("../Futura LT Condensed Bold Oblique.ttf");
+}
+
+body{
+  background: "white";
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-size: 26px;
+  font-style: normal;
+}
+
+p{
+  color: "black";
+  font-size: 20px;
+}
+
+h1{
+  color: "black";
+  text-align: center;
+  font-family: NewFutura;
+  font-size: 36px;
+}
+img{
+  display: block;
+  margin: auto;
+}
+
+
+h2{
+  color: rgb(35,202,233);
+  text-align: center;
+  font-size: 26px;
+}
+
+h3{
+  color: rgb(35,202,233);
+  font-size: 16px;
+}
+
+h4{
+  position: relative;
+  color: "black";
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 815px;
+}
