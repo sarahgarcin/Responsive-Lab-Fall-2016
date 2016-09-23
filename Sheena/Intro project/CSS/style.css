@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'fnordtwenty-three_italic';
+    src: url('../font/fnord-twenty-threeitalic-webfont.eot');
+    src: url('../font/fnord-twenty-threeitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fnord-twenty-threeitalic-webfont.woff2') format('woff2'),
+         url('../font/fnord-twenty-threeitalic-webfont.woff') format('woff'),
+         url('../font/fnord-twenty-threeitalic-webfont.ttf') format('truetype'),
+         url('../font/fnord-twenty-threeitalic-webfont.svg#fnordtwenty-three_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+*{
+	margin: 0px;
+}
+
+body{
+	background: rgb(255,47,255);
+	font-size: 12px;
+	font-family: "fnordtwenty-three_italic" ;
+}
+
+img{
+	width: 100%;
+}
+
+
+.image-wrapper{
+	width: 20%;
+	margin: auto;
+	position: absolute;
+}
+
+p{
+	font-family: "PT Sans", sans-serif;
+	color: #1a92b7;
+	font-size: 2em;
+	font-align: center;
+	border: 2px groove #000;
+}
+
+p.span{
+	color: green;
+}
+
+.red{
+	color:red;
+}
+
+#hello {
+
+}
+
+a:hover{
+	color: red;
+	border: 1px solid red;
+}
+
+a:active{
+	color:blue;
+}
+
+ul li{
+	text-decoration: underline;
+}
+
+ul>li>ul>li {
+	color: yellow;
+}
+
+h3 + p{
+	font-size: 2em;
+}
+
+h1{
+	color: #00E100;
+}
