@@ -1,0 +1,14 @@
+*{
+    margin:0;
+}
+
+body{
+    font-size: 12px;
+    font-family: Georgia, serif;
+    color: #000;
+    margin:0;
+}
+
+li{ list-style: none;}
+img{width: 100%;}
+
