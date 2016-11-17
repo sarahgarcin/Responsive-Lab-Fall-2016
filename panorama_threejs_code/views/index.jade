@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    link(rel='stylesheet', href='/css/style.css')
+    title #{title}
+  body
+
+    div.list
+      ul
+        li
+          a(href="/panorama") Panorama 1
+    
+    div.instructions
+      h2 here write instructions to connect with your phone
+    div.ip
+      h3 To connect with another device, use http://#{ip}:8080
+
+
+    script(src='/socket.io/socket.io.js')
+    script(src='/bower_components/jquery/dist/jquery.min.js')
+    script(src='/bower_components/foundation/js/foundation.min.js')
+
+
